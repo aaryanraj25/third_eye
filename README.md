@@ -5,9 +5,9 @@ Introducing Third Eye, a revolutionary Chrome extension specifically designed to
 <p align = "center">
     Example of an e-commerce page, with dark patterns marked in vivid yellow
 </p>
-
+<p align = "center">
 ![Alt text](https://drive.google.com/uc?export=view&id=1UOQi7rOx1WI0lw--DsNy1u62YwvQTAru)
-
+</p>
 
 
 ## What Exactly Are Dark Patterns?
