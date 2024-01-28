@@ -6,7 +6,8 @@ Introducing Third Eye, a revolutionary Chrome extension specifically designed to
     Example of an e-commerce page, with dark patterns marked in vivid yellow
 </p>
 
-![Alt text](https://drive.google.com/file/d/1UOQi7rOx1WI0lw--DsNy1u62YwvQTAru/view?usp=sharing)
+![Alt text](https://drive.google.com/uc?export=view&id=1UOQi7rOx1WI0lw--DsNy1u62YwvQTAru)
+
 
 
 ## What Exactly Are Dark Patterns?
