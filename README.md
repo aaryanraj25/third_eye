@@ -6,6 +6,9 @@ Introducing Third Eye, a revolutionary Chrome extension specifically designed to
     Example of an e-commerce page, with dark patterns marked in vivid yellow
 </p>
 
+![Alt text](https://drive.google.com/file/d/1UOQi7rOx1WI0lw--DsNy1u62YwvQTAru/view?usp=sharing)
+
+
 ## What Exactly Are Dark Patterns?
 
 Dark patterns represent a range of design strategies that subtly influence user behavior within software interfaces. While some are relatively benign, like using eye-catching colors for sign-up buttons, others veer towards being deceitfully manipulative. Particularly in the realm of online shopping, these patterns can subtly coerce customers into making unnecessary purchases. To deepen your understanding of dark patterns, visit this informative site. This resource, developed by the very person who introduced the term ‘dark patterns,’ offers invaluable insights into recognizing these covert design tactics.
