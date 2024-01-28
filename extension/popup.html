@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&display=swap">
+    <link rel="stylesheet" href="css/popup.css" type="text/css">
+    <script src="js/popup.js"></script>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: 'Poppins', sans-serif;
+        }
+        .modal-header {
+            background-color: #4a4e69;
+            color: white;
+            text-align: center;
+            padding: 0em;
+        }
+        .modal-header h1 {
+            
+            font-size: 1.8em;
+            margin-bottom: 2px; /* Reduced size of text */
+        }
+        .logo {
+            max-height: 120px; /* Increased logo size */
+            margin-bottom: 10px;
+        }
+        .modal-content {
+            background-color: white;
+            padding: 2em;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .analyze-button {
+            background-color: #9a8c98;
+            color: white;
+            border: none;
+            padding: 1em 2em;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .analyze-button:hover {
+            background-color: #c9ada7;
+        }
+        .modal-footer {
+            text-align: center;
+            padding: 1em;
+        }
+        .link {
+            color: #4a4e69;
+            text-decoration: none;
+        }
+        .link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="modal-header">
+        <img src="logo.png" alt="Third Eye Logo" class="logo"> <!-- Adjusted logo size -->
+        <h1>Third Eye</h1>
+    </div>
+    <div class="modal-content">
+        <div class="container">
+            <p class="label">Dark Patterns</p>
+            <p class="number">Not Available</p>
+        </div>
+        <button class="analyze-button" type="button" onclick="analyzeSite()">ANALYZE SITE</button>
+    </div>
+    <div class="modal-footer">
+        <a class="link" href="https://darkpatterns.org">What are dark patterns?</a>
+    </div>
+
+    <script>
+        function analyzeSite() {
+            // JavaScript function to trigger site analysis
+            alert('Analyzing the site for dark patterns...');
+        }
+    </script>
+</body>
+
+</html>

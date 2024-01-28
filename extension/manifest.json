@@ -1,0 +1,36 @@
+{
+    "manifest_version": 3,
+    "name": "Third Eye",
+    "version": "1.0",
+    "description": "Recognize dark patterns",
+    "icons": {
+        "16": "logo.png",
+        "48": "logo.png",
+        "128": "logo.png"
+      },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [{
+        "matches": [
+            "<all_urls>"
+        ],
+        "js": [
+            "js/common.js",
+            "js/block_segment.js",
+            "js/content.js"
+        ],
+        "css": [
+            "css/insite.css"
+        ],
+        "run_at": "document_end"
+    }],
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "storage"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ]
+}
